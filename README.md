@@ -82,6 +82,8 @@ Once you have your DH parameters for each joint, you can use this method to code
 
 1- Find a library in your programming language which allows you to do matrix multiplication. Alternatively, code your own using the methods in this list. 
 2- For each joint of the robot, populate a new 4 x 4 matrix with the following values:
+
+
 ![image](https://user-images.githubusercontent.com/86304831/128055835-217e6593-c67f-41dd-9cd0-5a1d08e3f734.png)
 
 3- Multiply all of the matrices together, starting with the first joint all the way up to the end effector.
